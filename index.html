@@ -3,10 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <title>Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial; }
-    nav { background: #333; padding: 1em; }
-    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Times New Roman', sans-serif;
+      background: linear-gradient(to bottom right, #ed6c11, #f23f75);
+      color: #5e4630;
+    }
+
+    nav {
+      background: #e66c7e;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 3px solid #f23f75;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 3.5em;
+      margin-top: 2em;
+      color: white;
+    }
+
+    .content {
+      max-width: 700px;
+      margin: 2em auto;
+      padding: 2em;
+      background: #d98089;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+
+    .buttons a {
+      display: inline-block;
+      background: #d7bba8;
+      color: #d98089;
+      padding: 0.7em 1.5em;
+      margin: 0.5em;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background: white;
+    }
   </style>
 </head>
 <body>
@@ -18,7 +81,17 @@
     <a href="elisa.html">Elisa</a>
     <a href="index.html">Home</a>
   </nav>
-  <h1>Welcome to Our Profiles</h1>
-  <p>Click on the names above to learn more about each person!</p>
+
+  <h1>Welcome</h1>
+  <div class="content">
+    <p>Meet our amazing group of friends! Click on each name to learn more about us and what we love to do.</p>
+    <div class="buttons">
+      <a href="julia.html">Julia</a>
+      <a href="elisa.html">Elisa</a>
+      <a href="layous.html">Layous</a>
+      <a href="zuri.html">Zuri</a>
+      <a href="pablo.html">Pablo</a>
+    </div>
+  </div>
 </body>
 </html>
